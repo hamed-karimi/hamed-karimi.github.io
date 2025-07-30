@@ -1,39 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Hamed Karimi</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-  <style>
-  div{
-  text-align: justify;
-  text-justify: inter-word;
-  }
-  </style>
 </head>
 <body>
-  <div class="wrapper">
-    
-    <div class="left">
-      <img class="profile-picture" src="images/avatar.jpg" width="230"/>
-      <h2 class="name">Hamed Karimi</h2>
+  <div class="container">
+    <div class="header">
+      <div class="header-content">
+        <div class="name-section">
+          <h1 class="name">Hamed Karimi</h1>
+          <p class="email">karimike@bc.edu</p>
+          <p class="bio">
+            I'm a PhD student at the department of Psychology and Neuroscience at Boston College. 
+            I work at the <a href="https://sccnlab.bc.edu/">Social and Cognitive Computational Neuroscience Lab</a>, where I am supervised by <a href="https://www.bc.edu/bc-web/schools/mcas/departments/psychology/people/faculty-directory/stefano-anzellotti.html">Stefano Anzellotti</a>.
+            Previously, I worked as a research assistant at the Royan Institute under the supervision of <a href="https://cognetivity.com/teams/dr-seyed-mahdi-khaligh-razavi/">Seyed-Mahdi Khaligh-Razavi</a>. 
+            I got my master's and bachelor's degrees in Computer Science from Amirkabir University of Technology and University of Tehran, respectively.<br><br>
+            My research interest lies at the intersection of psychology, neuroscience and machine learning.
+            I am interested in understanding the mental and brain representation of humans during recognizing and predicting other agents' actions. I am also interested in leveraging 
+            our understanding of psychology and neuroscience to teach machines to do the same task.
+          </p>
+          <div class="nav-links">
+            <a href="https://scholar.google.com/citations?hl=en&user=nzgUE8oAAAAJ&view_op=list_works&sortby=pubdate">[Google Scholar]</a>
+            <a href="#">[CV]</a>
+            <a href="#">[Publications]</a>
+            <a href="#">[Talks]</a>
+          </div>
+        </div>
+        <div class="portrait">
+          <img src="images/avatar.jpg" alt="Hamed Karimi" class="profile-picture">
+        </div>
+      </div>
     </div>
     
-    <div class="right">
-      <p class="bio">
-        I'm a PhD student at the department of Psychology and Neuroscience at Boston College. 
-		I work at the <a href="https://sccnlab.bc.edu/">Social and Cognitive Computational Neuroscience Lab</a>, where I am supervised by <a href=https://www.bc.edu/bc-web/schools/mcas/departments/psychology/people/faculty-directory/stefano-anzellotti.html>Stefano Anzellotti</a>.
-		Previously, I worked as a research assistant at the Royan Institute under the supervision of <a href=https://cognetivity.com/teams/dr-seyed-mahdi-khaligh-razavi/>Seyed-Mahdi Khaligh-Razavi</a>. 
-		I got my master's and bachelor's degrees in Computer Science from Amirkabir University of Technology and University of Tehran, respectively.<br>
-		My research interest lies at the intersection of psychology, neuroscience and machine learning.
-		I am interested in understanding the mental and brain representation of humans during recogizing and predicting other agents' actions. I am also interested in leveraging 
-		our understanding of psychology and neuroscience to teach machines to do the same task.
-      </p>
-      <ul class="social-links">
-        <li><a href="https://scholar.google.com/citations?hl=en&user=nzgUE8oAAAAJ&view_op=list_works&sortby=pubdate">Publications</a></li>
-        <li><a href="https://linkedin.com/in/hamed-karimi-351a0a81">LinkedIn</a></li>
-		<li><a href="https://twitter.com/Ham_Karimi">Twitter</a></li>
-		<li><a href="mailto:karimike@bc.edu">Email</a></li>
-      </ul>
+    <div class="publications">
+      <h2>Publications</h2>
+      <div class="publication">
+        <div class="pub-thumbnail">
+          <img src="images/pub1.jpg" alt="Publication thumbnail">
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">Understanding Social Cognition Through Computational Neuroscience</h3>
+          <p class="pub-venue">Nature Neuroscience 2024</p>
+          <p class="pub-authors">Hamed Karimi, Stefano Anzellotti, Seyed-Mahdi Khaligh-Razavi</p>
+          <div class="pub-links">
+            <a href="#">[project page]</a>
+            <a href="#">[paper]</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="publication">
+        <div class="pub-thumbnail">
+          <img src="images/pub2.jpg" alt="Publication thumbnail">
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">Neural Representations of Social Interactions in the Human Brain</h3>
+          <p class="pub-venue">Journal of Neuroscience 2023</p>
+          <p class="pub-authors">Hamed Karimi*, John Smith*, Stefano Anzellotti (* equal contribution)</p>
+          <div class="pub-links">
+            <a href="#">[project page]</a>
+            <a href="#">[paper]</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="publication">
+        <div class="pub-thumbnail">
+          <img src="images/pub3.jpg" alt="Publication thumbnail">
+        </div>
+        <div class="pub-content">
+          <h3 class="pub-title">Machine Learning Approaches to Social Cognition</h3>
+          <p class="pub-venue">Computational Brain & Behavior 2023</p>
+          <p class="pub-authors">Hamed Karimi, Seyed-Mahdi Khaligh-Razavi, Stefano Anzellotti</p>
+          <div class="pub-links">
+            <a href="#">[paper]</a>
+          </div>
+        </div>
+      </div>
     </div>
-    
   </div>
 </body>
+</html>
