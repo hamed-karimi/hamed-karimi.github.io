@@ -108,11 +108,11 @@ html, body {
   display: flex;
   gap: 20px;
   margin-bottom: 40px;
-  align-items: flex-start;
 }
 
 .pub-thumbnail {
   flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .pub-thumbnail img {
@@ -126,6 +126,9 @@ html, body {
 
 .pub-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .pub-title {
