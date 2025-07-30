@@ -82,6 +82,7 @@ html, body {
 /* Portrait */
 .portrait {
   flex-shrink: 0;
+  margin-top: 60px;
 }
 
 .profile-picture {
@@ -175,6 +176,7 @@ html, body {
   
   .portrait {
     align-self: center;
+    margin-top: 0;
   }
   
   .publication {
