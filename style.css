@@ -36,20 +36,20 @@ html, body {
 
 .name {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 8px;
   color: #000;
 }
 
 .email {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 20px;
   color: #666;
 }
 
 .bio {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: 20px;
   text-align: justify;
   text-justify: inter-word;
@@ -72,7 +72,7 @@ html, body {
   color: #0066cc;
   text-decoration: underline;
   margin-right: 15px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .nav-links a:hover {
@@ -99,7 +99,7 @@ html, body {
 
 .publications h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 30px;
   color: #000;
@@ -134,19 +134,19 @@ html, body {
 
 .pub-title {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 8px;
   color: #000;
 }
 
 .pub-venue {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: #666;
   margin-bottom: 8px;
 }
 
 .pub-authors {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: #333;
   margin-bottom: 12px;
 }
@@ -159,7 +159,7 @@ html, body {
   color: #0066cc;
   text-decoration: underline;
   margin-right: 15px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .pub-links a:hover {
@@ -193,6 +193,6 @@ html, body {
   }
   
   .name {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
