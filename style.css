@@ -113,6 +113,11 @@ html, body {
 .pub-thumbnail {
   flex-shrink: 0;
   align-self: flex-start;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .pub-thumbnail img {
